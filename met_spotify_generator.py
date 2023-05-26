@@ -96,6 +96,6 @@ if not SAME:
     api.authenticate()
 
     api.dataset_create_version(
-    "./data/",
+    "./song-data/",
     version_notes=f"Updated on {datetime.datetime.now().strftime('%Y-%m-%d')}",
     )
