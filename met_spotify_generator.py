@@ -84,7 +84,7 @@ metallica_data = pd.DataFrame(met_data, columns = cols)
 
 
 #Check if new data added
-prev_song_data = pd.read_csv('./song-data/metallica_songs.csv', index_col='id')
+prev_song_data = pd.read_csv('./song-data/metallica_songs.csv')
 
 SAME = prev_song_data.shape == metallica_data.shape
 
