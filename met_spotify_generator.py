@@ -5,6 +5,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import datetime
 from kaggle.api.kaggle_api_extended import KaggleApi
+import utils.update_metadata as update_metadata
 
 # GET SECRETS
 SPOTIFY_ID = os.getenv('SPOTIFY_ID')
@@ -90,6 +91,7 @@ SAME = prev_song_data.shape == metallica_data.shape
 #if not the same, update
 if not SAME:
     metallica_data.to_csv('./song-data/metallica_songs.csv', index=False)
+    update_metadata.update_description()
     api = KaggleApi()
     api.authenticate()
 

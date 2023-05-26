@@ -1,9 +1,5 @@
 {
-  "title": "Metallica Songs",
-  "id": "jonbown/INSERT_SLUG_HERE",
-  "licenses": [
-    {
-      "name": "CC0-1.0"
-    }
-  ]
+    "title": "Metallica Songs",
+    "id": "jonbown/metallica-songs",
+    "description": "-----------------------------------------------------------------------------------------------------------\n\n# Metallica Songs From Spotify\n\n## Popularity and Song Features\n\n\n-----------------------------------------------------------------------------------------------------------\nBy Spotify API\n\n&gt;Detailed song info for every Metallica song released/available on spotify. The remastered and box sets are included and may lead to duplicate songs during analysis.\n\n-----------------------------------------------------------------------------------------------------------\n## Included Files\n\n&gt; \n- metallica_songs.csv: Detailed information on each song by Metallica including song features, popularity, release date, etc.\n\n## Featured Notebooks & How To Use\n&gt; - [[Visualize Em' All](https://www.kaggle.com/code/jonbown/simpsons-views-with-r-sql)]\n\n## Pipeline\n\n&gt;If you're interested in how this dataset is maintained and updated, please see this [GitHub Repo](https://github.com/jon-bown/metallica)\n\n## Acknowledgements\n\n&gt; If you use this dataset in your research, please credit Spotify.\n"
 }
