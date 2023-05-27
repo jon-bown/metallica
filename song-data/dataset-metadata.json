@@ -3,113 +3,113 @@
     "id": "jonbown/metallica-songs",
     "description": "-----------------------------------------------------------------------------------------------------------\n\n# Metallica Songs From Spotify\n\n## Popularity and Song Features\n\n\n-----------------------------------------------------------------------------------------------------------\nBy Spotify API\n\n&gt;Detailed song info for every Metallica song released/available on spotify. The remastered and box sets are included and may lead to duplicate songs during analysis.\n\n-----------------------------------------------------------------------------------------------------------\n## Included Files\n\n&gt; \n- metallica_songs.csv: Detailed information on each song by Metallica including song features, popularity, release date, etc.\n\n## Featured Notebooks & How To Use\n&gt; - [[Visualize Em' All](https://www.kaggle.com/code/jonbown/simpsons-views-with-r-sql)]\n\n## Pipeline\n\n&gt;If you're interested in how this dataset is maintained and updated, please see this [GitHub Repo](https://github.com/jon-bown/metallica)\n\n## Acknowledgements\n\n&gt; If you use this dataset in your research, please credit Spotify.\n",
     "resources": [
-      {
-        "path": "metallica_songs.csv",
-        "description": "Metallica song attributes from Spotify",
-        "schema": {
-          "fields": [
-            {
-              "name": "spotify_id",
-              "description": "Spotify Song ID",
-              "type": "string"
-            },
-            {
-              "name": "spotify_uri",
-              "description": "Spotify Song uri",
-              "type": "string"
-            },
-            {
-              "name": "album",
-              "description": "Album Name",
-              "type": "string"
-            },
-            {
-              "name": "name",
-              "description": "Song name",
-              "type": "string"
-            },
-            {
-              "name": "popularity",
-              "description": "Spotify popularity score",
-              "type": "number"
-            },
-            {
-              "name": "release_date",
-              "description": "Album release date",
-              "type": "datetime"
-            },
-            {
-              "name": "track_number",
-              "description": "Song order on album",
-              "type": "number"
-            },
-            {
-              "name": "danceability",
-              "description": "Spotify danceability score",
-              "type": "number"
-            },
-            {
-              "name": "energy",
-              "description": "Spotify energy score",
-              "type": "number"
-            },
-            {
-              "name": "key",
-              "description": "Song key",
-              "type": "number"
-            },
-            {
-              "name": "loudness",
-              "description": "Spotify loudness score",
-              "type": "number"
-            },
-            {
-              "name": "mode",
-              "description": "Spotify mode",
-              "type": "number"
-            },
-            {
-              "name": "speechiness",
-              "description": "Spotify speechiness score",
-              "type": "number"
-            },
-            {
-              "name": "acousticness",
-              "description": "Spotify acousticness score",
-              "type": "number"
-            },
-            {
-              "name": "instrumentalness",
-              "description": "Spotify instrumentalness score",
-              "type": "number"
-            },
-            {
-              "name": "liveness",
-              "description": "Spotify liveness score",
-              "type": "number"
-            },
-            {
-              "name": "valence",
-              "description": "Spotify valence score",
-              "type": "number"
-            },
-            {
-              "name": "tempo",
-              "description": "Song tempo",
-              "type": "number"
-            },
-            {
-              "name": "duration_ms",
-              "description": "Duration in milliseconds",
-              "type": "number"
-            },
-            {
-              "name": "time_signature",
-              "description": "Song time signature",
-              "type": "number"
+        {
+            "path": "metallica_songs.csv",
+            "description": "Metallica song attributes from Spotify",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "spotify_id",
+                        "description": "Spotify Song ID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "spotify_uri",
+                        "description": "Spotify Song uri",
+                        "type": "string"
+                    },
+                    {
+                        "name": "album",
+                        "description": "Album Name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "description": "Song name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "popularity",
+                        "description": "Spotify popularity score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "release_date",
+                        "description": "Album release date",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "track_number",
+                        "description": "Song order on album",
+                        "type": "number"
+                    },
+                    {
+                        "name": "danceability",
+                        "description": "Spotify danceability score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "energy",
+                        "description": "Spotify energy score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "key",
+                        "description": "Song key",
+                        "type": "number"
+                    },
+                    {
+                        "name": "loudness",
+                        "description": "Spotify loudness score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "mode",
+                        "description": "Spotify mode",
+                        "type": "number"
+                    },
+                    {
+                        "name": "speechiness",
+                        "description": "Spotify speechiness score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "acousticness",
+                        "description": "Spotify acousticness score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "instrumentalness",
+                        "description": "Spotify instrumentalness score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "liveness",
+                        "description": "Spotify liveness score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "valence",
+                        "description": "Spotify valence score",
+                        "type": "number"
+                    },
+                    {
+                        "name": "tempo",
+                        "description": "Song tempo",
+                        "type": "number"
+                    },
+                    {
+                        "name": "duration_ms",
+                        "description": "Duration in milliseconds",
+                        "type": "number"
+                    },
+                    {
+                        "name": "time_signature",
+                        "description": "Song time signature",
+                        "type": "number"
+                    }
+                ]
             }
-          ]
         }
-      }
     ]
 }

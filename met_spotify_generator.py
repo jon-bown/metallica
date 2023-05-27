@@ -47,8 +47,8 @@ for album_id in album_ids:
     track_ids = []
     for track in tracks:
         track_row = {}
-        track_row['id'] = track['id']
-        track_row['uri'] = track['uri']
+        track_row['spotify_id'] = track['id']
+        track_row['spotify_uri'] = track['uri']
         track_row['album'] = album_info['name']
         track_row['name'] = track['name']
         track_row['release_date'] = album_info['release_date']
@@ -76,7 +76,7 @@ for album_id in album_ids:
         met_data.append(track_row)
 
 #Convert result to pandas
-cols = ['id', 'uri', 'album', 'name', 'popularity', 'release_date', 'track_number', 'danceability', 'energy',
+cols = ['spotify_id', 'spotify_uri', 'album', 'name', 'popularity', 'release_date', 'track_number', 'danceability', 'energy',
        'key', 'loudness', 'mode', 'speechiness', 'acousticness', 'instrumentalness', 'liveness',
        'valence', 'tempo', 'duration_ms', 'time_signature']
 metallica_data = pd.DataFrame(met_data, columns = cols)        
