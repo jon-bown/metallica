@@ -7,11 +7,10 @@ The `song-data` folder contains an up-to-date compliation of Metallica songs fro
 ## Table of Contents
 1. [Project Structure](#project-structure)
 2. [Getting Started](#getting-started)
-4. [Updating the Kaggle Dataset](#updating-the-kaggle-dataset)
-5. [Automation with GitHub Actions](#automation-with-github-actions)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgements](#acknowledgements)
+3. [Automation with GitHub Actions](#automation-with-github-actions)
+4. [Licenses](#licenses)
+5. [Disclaimer](#disclaimer)
+6. [Acknowledgements](#acknowledgements)
 
 ## Project Structure
 
