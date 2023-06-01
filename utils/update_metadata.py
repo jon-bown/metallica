@@ -6,7 +6,7 @@ def update_description():
     Update description from about.md
     """
     # Open and read the about markdown file
-    with open('about.md', 'r') as file:
+    with open('./song-data/about.md', 'r') as file:
         description = file.read()
 
     # Load existing data from the JSON file
